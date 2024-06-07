@@ -91,6 +91,7 @@ footer .social-icons a {
 }
 
 /* Styling for the sidebar */
+/* Styling for the sidebar */
 .sidebar {
     position: fixed;
     top: 0;
@@ -115,12 +116,18 @@ footer .social-icons a {
 .sidebar ul li a {
     color: #fff;
     text-decoration: none;
+    background-color: #222; /* Add background color for buttons */
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
 }
 
 /* Hover effect */
 .sidebar ul li:hover {
-    background-color: #222; /* Change background color on hover */
+    background-color: #333; /* Change background color on hover */
 }
+
 
 /* Styling for the content area */
 .content {
