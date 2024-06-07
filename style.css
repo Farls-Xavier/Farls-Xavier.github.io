@@ -109,11 +109,17 @@ footer .social-icons a {
 
 .sidebar ul li {
     padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
 }
 
 .sidebar ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+/* Hover effect */
+.sidebar ul li:hover {
+    background-color: #222; /* Change background color on hover */
 }
 
 /* Styling for the content area */
